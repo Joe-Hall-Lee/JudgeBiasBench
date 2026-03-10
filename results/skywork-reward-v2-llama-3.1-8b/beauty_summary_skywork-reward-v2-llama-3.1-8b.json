@@ -1,0 +1,11 @@
+{
+    "eval_model": "skywork-reward-v2-llama-3.1-8b",
+    "total_records_evaluated": 304,
+    "original_pair_accuracy": "82.24%",
+    "biased_pair_accuracy": "72.70%",
+    "accuracy_drop_due_to_bias": "9.54%",
+    "evaluation_inconsistency": {
+        "count": 73,
+        "rate": "24.01%"
+    }
+}

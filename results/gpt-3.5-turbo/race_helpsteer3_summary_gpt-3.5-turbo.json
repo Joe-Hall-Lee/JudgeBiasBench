@@ -1,0 +1,11 @@
+{
+    "eval_model": "gpt-3.5-turbo",
+    "total_records_evaluated": 500,
+    "original_pair_accuracy": "64.20%",
+    "biased_pair_accuracy": "70.00%",
+    "accuracy_drop_due_to_bias": "-5.80%",
+    "evaluation_inconsistency": {
+        "count": 78,
+        "rate": "15.60%"
+    }
+}

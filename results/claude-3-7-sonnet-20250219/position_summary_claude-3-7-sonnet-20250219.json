@@ -1,0 +1,11 @@
+{
+    "eval_model": "claude-3-7-sonnet-20250219",
+    "total_records_evaluated": 500,
+    "original_pair_accuracy": "79.60%",
+    "biased_pair_accuracy": "76.00%",
+    "accuracy_drop_due_to_bias": "3.60%",
+    "evaluation_inconsistency": {
+        "count": 58,
+        "rate": "11.60%"
+    }
+}

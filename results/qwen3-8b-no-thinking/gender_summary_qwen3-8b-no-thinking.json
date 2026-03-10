@@ -1,0 +1,11 @@
+{
+    "eval_model": "qwen3-8b-no-thinking",
+    "total_records_evaluated": 327,
+    "original_pair_accuracy": "78.59%",
+    "biased_pair_accuracy": "66.36%",
+    "accuracy_drop_due_to_bias": "12.23%",
+    "evaluation_inconsistency": {
+        "count": 50,
+        "rate": "15.29%"
+    }
+}

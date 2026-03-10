@@ -1,0 +1,101 @@
+{
+    "length": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 291,
+        "original_pair_accuracy": "85.22%",
+        "biased_pair_accuracy": "81.79%",
+        "accuracy_drop_due_to_bias": "3.44%",
+        "evaluation_inconsistency": {
+            "count": 52,
+            "rate": "17.87%"
+        }
+    },
+    "authority": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 380,
+        "original_pair_accuracy": "81.84%",
+        "biased_pair_accuracy": "86.58%",
+        "accuracy_drop_due_to_bias": "-4.74%",
+        "evaluation_inconsistency": {
+            "count": 40,
+            "rate": "10.53%"
+        }
+    },
+    "beauty": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 304,
+        "original_pair_accuracy": "81.58%",
+        "biased_pair_accuracy": "69.08%",
+        "accuracy_drop_due_to_bias": "12.50%",
+        "evaluation_inconsistency": {
+            "count": 72,
+            "rate": "23.68%"
+        }
+    },
+    "assertiveness": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 351,
+        "original_pair_accuracy": "85.19%",
+        "biased_pair_accuracy": "87.75%",
+        "accuracy_drop_due_to_bias": "-2.56%",
+        "evaluation_inconsistency": {
+            "count": 51,
+            "rate": "14.53%"
+        }
+    },
+    "sycophancy": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 295,
+        "original_pair_accuracy": "83.73%",
+        "biased_pair_accuracy": "78.64%",
+        "accuracy_drop_due_to_bias": "5.08%",
+        "evaluation_inconsistency": {
+            "count": 37,
+            "rate": "12.54%"
+        }
+    },
+    "sentiment": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 397,
+        "original_pair_accuracy": "81.36%",
+        "biased_pair_accuracy": "88.41%",
+        "accuracy_drop_due_to_bias": "-7.05%",
+        "evaluation_inconsistency": {
+            "count": 70,
+            "rate": "17.63%"
+        }
+    },
+    "concreteness": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 362,
+        "original_pair_accuracy": "81.22%",
+        "biased_pair_accuracy": "86.19%",
+        "accuracy_drop_due_to_bias": "-4.97%",
+        "evaluation_inconsistency": {
+            "count": 64,
+            "rate": "17.68%"
+        }
+    },
+    "gender": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 500,
+        "original_pair_accuracy": "75.00%",
+        "biased_pair_accuracy": "89.60%",
+        "accuracy_drop_due_to_bias": "-14.60%",
+        "evaluation_inconsistency": {
+            "count": 77,
+            "rate": "15.40%"
+        }
+    },
+    "race": {
+        "eval_model": "skywork-reward-v2-qwen3-8b",
+        "total_records_evaluated": 500,
+        "original_pair_accuracy": "77.60%",
+        "biased_pair_accuracy": "89.60%",
+        "accuracy_drop_due_to_bias": "-12.00%",
+        "evaluation_inconsistency": {
+            "count": 66,
+            "rate": "13.20%"
+        }
+    }
+}

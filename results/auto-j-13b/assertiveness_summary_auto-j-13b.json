@@ -1,0 +1,11 @@
+{
+    "eval_model": "auto-j-13b",
+    "total_records_evaluated": 351,
+    "original_pair_accuracy": "66.95%",
+    "biased_pair_accuracy": "40.46%",
+    "accuracy_drop_due_to_bias": "26.50%",
+    "evaluation_inconsistency": {
+        "count": 131,
+        "rate": "37.32%"
+    }
+}

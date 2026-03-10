@@ -1,0 +1,11 @@
+{
+    "eval_model": "llama-3.1-tulu-3-8b-rl-rm-rb2",
+    "total_records_evaluated": 397,
+    "original_pair_accuracy": "73.05%",
+    "biased_pair_accuracy": "80.60%",
+    "accuracy_drop_due_to_bias": "-7.56%",
+    "evaluation_inconsistency": {
+        "count": 102,
+        "rate": "25.69%"
+    }
+}

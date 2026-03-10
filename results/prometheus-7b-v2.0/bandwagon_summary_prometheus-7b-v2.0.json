@@ -1,0 +1,11 @@
+{
+    "eval_model": "prometheus-7b-v2.0",
+    "total_records_evaluated": 500,
+    "original_pair_accuracy": "64.20%",
+    "biased_pair_accuracy": "55.40%",
+    "accuracy_drop_due_to_bias": "8.80%",
+    "evaluation_inconsistency": {
+        "count": 141,
+        "rate": "28.20%"
+    }
+}

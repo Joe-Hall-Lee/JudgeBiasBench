@@ -1,0 +1,11 @@
+{
+    "eval_model": "skywork-reward-v2-qwen3-8b",
+    "total_records_evaluated": 351,
+    "original_pair_accuracy": "85.19%",
+    "biased_pair_accuracy": "87.75%",
+    "accuracy_drop_due_to_bias": "-2.56%",
+    "evaluation_inconsistency": {
+        "count": 51,
+        "rate": "14.53%"
+    }
+}

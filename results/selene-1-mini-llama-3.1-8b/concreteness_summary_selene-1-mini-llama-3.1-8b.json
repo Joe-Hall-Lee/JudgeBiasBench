@@ -1,0 +1,11 @@
+{
+    "eval_model": "selene-1-mini-llama-3.1-8b",
+    "total_records_evaluated": 362,
+    "original_pair_accuracy": "73.48%",
+    "biased_pair_accuracy": "67.96%",
+    "accuracy_drop_due_to_bias": "5.52%",
+    "evaluation_inconsistency": {
+        "count": 126,
+        "rate": "34.81%"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+    "total_records_evaluated": 362,
+    "original_pair_accuracy": "79.28%",
+    "biased_pair_accuracy": "66.85%",
+    "accuracy_drop_due_to_bias": "12.43%",
+    "evaluation_inconsistency": {
+        "count": 109,
+        "rate": "30.11%"
+    }
+}

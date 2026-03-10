@@ -1,0 +1,11 @@
+{
+    "eval_model": "gemini-2.5-pro",
+    "total_records_evaluated": 500,
+    "original_pair_accuracy": "76.60%",
+    "biased_pair_accuracy": "76.00%",
+    "accuracy_drop_due_to_bias": "0.60%",
+    "evaluation_inconsistency": {
+        "count": 90,
+        "rate": "18.00%"
+    }
+}

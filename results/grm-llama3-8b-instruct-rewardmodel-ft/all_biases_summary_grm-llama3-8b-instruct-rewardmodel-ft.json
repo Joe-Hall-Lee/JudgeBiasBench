@@ -1,0 +1,108 @@
+{
+    "length": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 291,
+        "original_pair_accuracy": "81.79%",
+        "biased_pair_accuracy": "74.23%",
+        "accuracy_drop_due_to_bias": "7.56%",
+        "evaluation_inconsistency": {
+            "count": 80,
+            "rate": "27.49%"
+        }
+    },
+    "authority": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 380,
+        "original_pair_accuracy": "76.32%",
+        "biased_pair_accuracy": "76.32%",
+        "accuracy_drop_due_to_bias": "0.00%",
+        "evaluation_inconsistency": {
+            "count": 72,
+            "rate": "18.95%"
+        }
+    },
+    "beauty": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 304,
+        "original_pair_accuracy": "79.28%",
+        "biased_pair_accuracy": "45.39%",
+        "accuracy_drop_due_to_bias": "33.88%",
+        "evaluation_inconsistency": {
+            "count": 139,
+            "rate": "45.72%"
+        }
+    },
+    "assertiveness": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 351,
+        "original_pair_accuracy": "80.06%",
+        "biased_pair_accuracy": "65.53%",
+        "accuracy_drop_due_to_bias": "14.53%",
+        "evaluation_inconsistency": {
+            "count": 107,
+            "rate": "30.48%"
+        }
+    },
+    "sycophancy": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 295,
+        "original_pair_accuracy": "79.66%",
+        "biased_pair_accuracy": "74.92%",
+        "accuracy_drop_due_to_bias": "4.75%",
+        "evaluation_inconsistency": {
+            "count": 64,
+            "rate": "21.69%"
+        }
+    },
+    "sentiment": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 397,
+        "original_pair_accuracy": "77.33%",
+        "biased_pair_accuracy": "80.35%",
+        "accuracy_drop_due_to_bias": "-3.02%",
+        "evaluation_inconsistency": {
+            "count": 88,
+            "rate": "22.17%"
+        }
+    },
+    "concreteness": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 362,
+        "original_pair_accuracy": "79.28%",
+        "biased_pair_accuracy": "66.85%",
+        "accuracy_drop_due_to_bias": "12.43%",
+        "evaluation_inconsistency": {
+            "count": 109,
+            "rate": "30.11%"
+        }
+    },
+    "gender": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 327,
+        "original_pair_accuracy": "83.18%",
+        "biased_pair_accuracy": "65.14%",
+        "accuracy_drop_due_to_bias": "18.04%",
+        "evaluation_inconsistency": {
+            "count": 63,
+            "rate": "19.27%"
+        }
+    },
+    "race": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 297,
+        "original_pair_accuracy": "82.83%",
+        "biased_pair_accuracy": "65.99%",
+        "accuracy_drop_due_to_bias": "16.84%",
+        "evaluation_inconsistency": {
+            "count": 50,
+            "rate": "16.84%"
+        }
+    },
+    "refinement-aware": {
+        "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
+        "total_records_evaluated": 499,
+        "average_score_no_context": "3.7548",
+        "average_score_with_context": "1.8983",
+        "average_improvement_rate_with_context": "-5.70%"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "eval_model": "deepseek-r1",
+    "total_records_evaluated": 327,
+    "original_pair_accuracy": "89.60%",
+    "biased_pair_accuracy": "83.79%",
+    "accuracy_drop_due_to_bias": "5.81%",
+    "evaluation_inconsistency": {
+        "count": 33,
+        "rate": "10.09%"
+    }
+}

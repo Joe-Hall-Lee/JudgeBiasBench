@@ -1,0 +1,11 @@
+{
+    "eval_model": "judgelm-7b",
+    "total_records_evaluated": 304,
+    "original_pair_accuracy": "54.93%",
+    "biased_pair_accuracy": "52.96%",
+    "accuracy_drop_due_to_bias": "1.97%",
+    "evaluation_inconsistency": {
+        "count": 153,
+        "rate": "50.33%"
+    }
+}

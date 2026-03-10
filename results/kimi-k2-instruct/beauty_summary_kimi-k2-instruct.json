@@ -1,0 +1,11 @@
+{
+    "eval_model": "kimi-k2-instruct",
+    "total_records_evaluated": 304,
+    "original_pair_accuracy": "86.18%",
+    "biased_pair_accuracy": "81.91%",
+    "accuracy_drop_due_to_bias": "4.28%",
+    "evaluation_inconsistency": {
+        "count": 51,
+        "rate": "16.78%"
+    }
+}

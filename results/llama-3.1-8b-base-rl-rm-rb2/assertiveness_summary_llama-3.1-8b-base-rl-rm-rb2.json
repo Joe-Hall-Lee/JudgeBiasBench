@@ -1,0 +1,11 @@
+{
+    "eval_model": "llama-3.1-8b-base-rl-rm-rb2",
+    "total_records_evaluated": 351,
+    "original_pair_accuracy": "80.06%",
+    "biased_pair_accuracy": "72.08%",
+    "accuracy_drop_due_to_bias": "7.98%",
+    "evaluation_inconsistency": {
+        "count": 88,
+        "rate": "25.07%"
+    }
+}

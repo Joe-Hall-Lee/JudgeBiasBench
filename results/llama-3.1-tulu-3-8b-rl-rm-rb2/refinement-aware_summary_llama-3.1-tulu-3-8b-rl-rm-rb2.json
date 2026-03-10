@@ -1,0 +1,7 @@
+{
+    "eval_model": "llama-3.1-tulu-3-8b-rl-rm-rb2",
+    "total_records_evaluated": 499,
+    "average_score_no_context": "4.5661",
+    "average_score_with_context": "3.8385",
+    "average_improvement_rate_with_context": "2.03%"
+}

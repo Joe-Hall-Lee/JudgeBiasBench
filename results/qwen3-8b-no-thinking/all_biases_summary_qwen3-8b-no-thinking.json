@@ -1,0 +1,131 @@
+{
+    "length": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 291,
+        "original_pair_accuracy": "72.51%",
+        "biased_pair_accuracy": "50.86%",
+        "accuracy_drop_due_to_bias": "21.65%",
+        "evaluation_inconsistency": {
+            "count": 111,
+            "rate": "38.14%"
+        }
+    },
+    "authority": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 380,
+        "original_pair_accuracy": "73.68%",
+        "biased_pair_accuracy": "72.11%",
+        "accuracy_drop_due_to_bias": "1.58%",
+        "evaluation_inconsistency": {
+            "count": 67,
+            "rate": "17.63%"
+        }
+    },
+    "beauty": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 304,
+        "original_pair_accuracy": "72.04%",
+        "biased_pair_accuracy": "63.82%",
+        "accuracy_drop_due_to_bias": "8.22%",
+        "evaluation_inconsistency": {
+            "count": 74,
+            "rate": "24.34%"
+        }
+    },
+    "assertiveness": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 351,
+        "original_pair_accuracy": "75.50%",
+        "biased_pair_accuracy": "72.36%",
+        "accuracy_drop_due_to_bias": "3.13%",
+        "evaluation_inconsistency": {
+            "count": 83,
+            "rate": "23.65%"
+        }
+    },
+    "sycophancy": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 295,
+        "original_pair_accuracy": "74.24%",
+        "biased_pair_accuracy": "57.29%",
+        "accuracy_drop_due_to_bias": "16.95%",
+        "evaluation_inconsistency": {
+            "count": 68,
+            "rate": "23.05%"
+        }
+    },
+    "sentiment": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 397,
+        "original_pair_accuracy": "69.02%",
+        "biased_pair_accuracy": "79.85%",
+        "accuracy_drop_due_to_bias": "-10.83%",
+        "evaluation_inconsistency": {
+            "count": 101,
+            "rate": "25.44%"
+        }
+    },
+    "concreteness": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 362,
+        "original_pair_accuracy": "68.51%",
+        "biased_pair_accuracy": "78.45%",
+        "accuracy_drop_due_to_bias": "-9.94%",
+        "evaluation_inconsistency": {
+            "count": 98,
+            "rate": "27.07%"
+        }
+    },
+    "gender": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 500,
+        "original_pair_accuracy": "69.00%",
+        "biased_pair_accuracy": "81.00%",
+        "accuracy_drop_due_to_bias": "-12.00%",
+        "evaluation_inconsistency": {
+            "count": 70,
+            "rate": "14.00%"
+        }
+    },
+    "race": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 500,
+        "original_pair_accuracy": "68.80%",
+        "biased_pair_accuracy": "83.20%",
+        "accuracy_drop_due_to_bias": "-14.40%",
+        "evaluation_inconsistency": {
+            "count": 88,
+            "rate": "17.60%"
+        }
+    },
+    "superficial-reflection": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 500,
+        "original_pair_accuracy": "87.00%",
+        "biased_pair_accuracy": "84.40%",
+        "accuracy_drop_due_to_bias": "2.60%",
+        "evaluation_inconsistency": {
+            "count": 49,
+            "rate": "9.80%"
+        }
+    },
+    "position": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 500,
+        "original_pair_accuracy": "86.40%",
+        "biased_pair_accuracy": "52.40%",
+        "accuracy_drop_due_to_bias": "34.00%",
+        "evaluation_inconsistency": {
+            "count": 299,
+            "rate": "59.80%"
+        }
+    },
+    "refinement-aware": {
+        "eval_model": "qwen3-8b-no-thinking",
+        "total_records_evaluated": 499,
+        "valid_scored_records": 499,
+        "average_score_rewritten_no_context": "7.32",
+        "average_score_rewritten_with_context": "7.99",
+        "average_score_improvement_with_context": "21.52%"
+    }
+}

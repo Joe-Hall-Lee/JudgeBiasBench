@@ -1,0 +1,11 @@
+{
+    "eval_model": "o4-mini-2025-04-16",
+    "total_records_evaluated": 380,
+    "original_pair_accuracy": "84.21%",
+    "biased_pair_accuracy": "87.63%",
+    "accuracy_drop_due_to_bias": "-3.42%",
+    "evaluation_inconsistency": {
+        "count": 49,
+        "rate": "12.89%"
+    }
+}

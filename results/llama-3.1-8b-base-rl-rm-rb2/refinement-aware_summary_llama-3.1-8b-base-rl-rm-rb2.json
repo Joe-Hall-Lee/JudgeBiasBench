@@ -1,0 +1,7 @@
+{
+    "eval_model": "llama-3.1-8b-base-rl-rm-rb2",
+    "total_records_evaluated": 499,
+    "average_score_no_context": "9.0870",
+    "average_score_with_context": "8.4208",
+    "average_improvement_rate_with_context": "-3.01%"
+}

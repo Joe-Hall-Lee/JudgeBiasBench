@@ -1,0 +1,41 @@
+### 消融 SFT w/o teacher reasoning：与主配置相同的样本，输出只留 [[A]]/[[B]]；除 dataset/output_dir 外与 qwen2_5_7b_sft_cot_gpt4o.yaml 一致。
+### model
+model_name_or_path: Qwen/Qwen2.5-7B-Instruct   # 占位，本地目录或 hub id；实验脚本用 BASE_MODEL 覆盖
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: train/generative/LLaMA-Factory/examples/deepspeed/ds_z3_config.json  # run llamafactory-cli from the repo root
+
+### dataset
+dataset_dir: data/train/generative/sft  # dataset_info.json + train_*.json (see README.md, "Training data")
+dataset: bias_no_cot_matched
+template: qwen
+cutoff_len: 20480
+# max_samples: 1000
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: checkpoints/qwen2.5-7b_sft_no_cot   # 占位，相对仓库根；实验脚本用 CKPT_ROOT 覆盖
+logging_steps: 10
+save_steps: 200
+save_total_limit: 3
+plot_loss: true
+overwrite_output_dir: false
+save_only_model: false
+report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-6
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null

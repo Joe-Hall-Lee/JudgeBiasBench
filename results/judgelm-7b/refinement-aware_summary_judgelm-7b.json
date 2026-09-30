@@ -1,8 +1,0 @@
-{
-    "eval_model": "judgelm-7b",
-    "total_records_evaluated": 499,
-    "valid_scored_records": 169,
-    "average_score_rewritten_no_context": "8.77",
-    "average_score_rewritten_with_context": "9.30",
-    "average_score_improvement_with_context": "36.61%"
-}

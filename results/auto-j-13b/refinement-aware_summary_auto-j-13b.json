@@ -1,8 +1,0 @@
-{
-    "eval_model": "auto-j-13b",
-    "total_records_evaluated": 493,
-    "valid_scored_records": 236,
-    "average_score_rewritten_no_context": "5.73",
-    "average_score_rewritten_with_context": "5.54",
-    "average_score_improvement_with_context": "-2.36%"
-}

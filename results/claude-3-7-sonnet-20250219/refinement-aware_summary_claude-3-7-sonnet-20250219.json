@@ -1,8 +1,0 @@
-{
-    "eval_model": "claude-3-7-sonnet-20250219",
-    "total_records_evaluated": 499,
-    "valid_scored_records": 499,
-    "average_original_score": "7.26",
-    "average_refined_score": "8.46",
-    "average_refinement_improvement_rate": "41.96%"
-}

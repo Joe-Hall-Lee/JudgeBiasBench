@@ -1,0 +1,23 @@
+{
+  "offsetbias_no_cot": {
+    "file_name": "train_no_cot_offsetbias.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "bias_gpt-4o_cot": {
+    "file_name": "train_cot_gpt-4o.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "bias_no_cot_matched": {
+    "file_name": "train_no_cot_matched1100.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  }
+}

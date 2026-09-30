@@ -1,7 +1,0 @@
-{
-    "eval_model": "skywork-reward-llama-3.1-8b-v0.2",
-    "total_records_evaluated": 499,
-    "average_score_no_context": "7.5497",
-    "average_score_with_context": "6.9109",
-    "average_improvement_rate_with_context": "21.59%"
-}

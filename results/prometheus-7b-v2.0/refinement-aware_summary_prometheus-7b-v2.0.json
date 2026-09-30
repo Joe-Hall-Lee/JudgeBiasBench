@@ -1,8 +1,0 @@
-{
-    "eval_model": "prometheus-7b-v2.0",
-    "total_records_evaluated": 499,
-    "valid_scored_records": 492,
-    "average_score_rewritten_no_context": "9.18",
-    "average_score_rewritten_with_context": "9.08",
-    "average_score_improvement_with_context": "3.79%"
-}

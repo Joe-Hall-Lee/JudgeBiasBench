@@ -1,7 +1,0 @@
-{
-    "eval_model": "grm-llama3-8b-instruct-rewardmodel-ft",
-    "total_records_evaluated": 499,
-    "average_score_no_context": "3.7548",
-    "average_score_with_context": "1.8983",
-    "average_improvement_rate_with_context": "-5.70%"
-}

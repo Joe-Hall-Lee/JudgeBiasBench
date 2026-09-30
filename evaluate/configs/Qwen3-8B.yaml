@@ -1,0 +1,10 @@
+prompt: pair_no_cot
+vllm_args:
+  model_args:
+    model: /path/to/Qwen3-8B  # replace with your local checkpoint
+    dtype: float16
+    tensor_parallel_size: 1
+    trust_remote_code: true
+  sampling_params:
+    temperature: 0
+    max_tokens: 1024

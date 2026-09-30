@@ -1,2 +1,30 @@
+# secrets / local
 .env
-__pycache__
+.env.*
+CLAUDE.md
+# site-specific environment scripts (conda / pip mirror / cluster paths), kept locally only
+scripts/env_lib.sh
+scripts/setup_envs.sh
+scripts/local_env.sh
+*.pdf
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# training data (multi-GB; see README.md "Training data" for how to rebuild)
+data/train/**
+!data/train/generative/
+!data/train/generative/sft/
+!data/train/generative/sft/dataset_info.json
+
+# evaluation outputs (not published; kept locally only)
+results/
+
+# checkpoints / logs
+checkpoints/
+saves/
+outputs/
+*.log
+wandb/

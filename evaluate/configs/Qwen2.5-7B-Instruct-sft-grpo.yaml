@@ -1,0 +1,10 @@
+prompt: pair_cot
+vllm_args:
+  model_args:
+    model: /path/to/checkpoints/sft_cot_grpo/global_step_1800/actor/huggingface  # overridden by --model_path
+    dtype: float16
+    tensor_parallel_size: 1
+    trust_remote_code: true
+  sampling_params:
+    temperature: 0
+    max_tokens: 1024

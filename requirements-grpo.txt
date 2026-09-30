@@ -1,0 +1,32 @@
+# Environment "jbb-grpo" (Python 3.11): GRPO with the vendored EasyR1 (also used to merge FSDP checkpoints).
+# Install from the repository root in two steps (flash-attn needs nvcc and is kept out of the resolver):
+#   pip install -r requirements-grpo.txt
+#   pip install --no-deps --no-build-isolation -e ./train/generative/EasyR1
+#   pip install flash-attn --no-build-isolation        # we used 2.8.3; a prebuilt wheel for your CUDA/torch also works
+#
+# The stack follows EasyR1's own Dockerfile. It cannot share requirements.txt's versions: vllm 0.9.x conflicts
+# with transformers>=4.54, which EasyR1's Ulysses patch requires; tensordict must be 0.6.2 with torch 2.8.
+vllm==0.11.0
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
+transformers==4.56.2
+tensordict==0.6.2
+scikit-learn
+# remaining EasyR1 dependencies (its requirements.txt minus flash-attn)
+accelerate
+codetiming
+datasets
+liger-kernel
+mathruler
+numpy
+omegaconf
+pandas
+peft
+pillow
+pyarrow>=15.0.0
+pylatexenc
+qwen-vl-utils
+ray[default]
+torchdata
+wandb

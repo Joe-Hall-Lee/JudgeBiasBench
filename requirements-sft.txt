@@ -1,0 +1,11 @@
+# Environment "jbb-sft" (Python 3.11): SFT cold-start with the vendored LLaMA-Factory.
+# Install from the repository root:  pip install -r requirements-sft.txt
+#
+# torch / transformers are pinned to the same stack as requirements.txt on purpose: LLaMA-Factory's
+# unbounded [torch] extra pulls a much newer torch, under which ZeRO-3 SFT loss first explodes and
+# then silently turns NaN.
+-e ./train/generative/LLaMA-Factory[torch,metrics,deepspeed]
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+transformers==4.51.3
